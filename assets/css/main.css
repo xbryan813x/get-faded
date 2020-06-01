@@ -59,6 +59,35 @@
 
 /* Containers */
 
+	.barber {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.barber__name {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 10px;
+		font-size: 20px;
+		height: 60px;
+		width: 200px;
+		border-radius: 5px;
+		border: 1px solid #a6a6a6;
+		cursor: pointer;
+
+		background-color: white;
+		color: #a6a6a6;
+
+		transition: background-color 1s, color 1s;
+	}
+
+	.barber__name:hover {
+		background-color: #a6a6a6;
+		color: #444;
+	}
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -150,7 +179,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;	
+		align-items: center;
 		background-color: none;
 	}
 
